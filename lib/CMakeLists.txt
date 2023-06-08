@@ -1,0 +1,2 @@
+add_library(fast_advent_lib INTERFACE)
+target_include_directories(fast_advent_lib INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
